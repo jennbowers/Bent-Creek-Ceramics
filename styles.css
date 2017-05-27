@@ -31,6 +31,10 @@ a:hover {
   color: #967343;
 }
 
+body {
+  background-color: #F2F1E8;
+}
+
 /*logo at top*/
 
 .logo {
@@ -50,6 +54,7 @@ a:hover {
 
 nav {
   background-color: #ffffff;
+  width: 100%;
   height: 70px;
   display: flex;
   justify-content: center;
@@ -85,6 +90,7 @@ nav a:active {
 header {
   font-family: 'Merriweather', serif;
   text-align: center;
+  width: 100%;
 }
 
 /* into header text--Bent Creek Ceramics*/
@@ -105,64 +111,83 @@ header h2 {
   margin-bottom: 55px;
 }
 
-/*out of header and header text, into body*/
+/*out of header and header text, into section*/
 
-body {
-  background-color: #F2F1E8;
+.flex-container {
+  display: flex;
+  /*justify-content: center;*/
+  flex-wrap: wrap;
+  padding: 15px;
 }
+
+/*still in body, but now into each of the flex items*/
 
 .possibilities {
   height: 368px;
-  width: 20%;
+  width: 60%;
+  flex-grow: 3;
   background-image: url("images/product-1.jpg");
   background-size: cover;
   background-position: center;
+  margin: 8px;
 }
 
 .sets {
   height: 368px;
   width: 20%;
+  flex-grow: 1;
   background-image: url("images/product-2.jpg");
   background-size: cover;
   background-position: center;
+  margin: 8px;
 }
 
 .textures {
   height: 368px;
   width: 20%;
+  flex-grow: 1;
   background-image: url("images/product-3.jpg");
   background-size: cover;
   background-position: center;
+  margin: 8px;
 }
 
 .tea {
-  height: 368px;
+  height: 245px;
   width: 20%;
+  flex-grow: 1;
   background-image: url("images/product-4.jpg");
   background-size: cover;
   background-position: center;
+  margin: 8px;
 }
 
 .jars {
-  height: 368px;
+  height: 245px;
   width: 20%;
+  flex-grow: 1;
   background-image: url("images/product-5.jpg");
   background-size: cover;
   background-position: center;
+  margin: 8px;
 }
 
 .wasabi {
-  height: 368px;
+  height: 245px;
   width: 20%;
+  flex-grow: 2;
   background-image: url("images/product-6.jpg");
   background-size: cover;
   background-position: center;
+  margin: 8px;
 }
 
 .sunshine {
-  height: 368px;
+  height: 245px;
   width: 20%;
+  flex-grow: 1;
   background-image: url("images/product-7.jpg");
   background-size: cover;
   background-position: center;
+  margin: 8px;
 }
