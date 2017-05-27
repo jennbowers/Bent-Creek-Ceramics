@@ -1,5 +1,5 @@
 /*Background: #F2F1E8
-Text: #131511
+--Text: #131511
 --Inline Link: #968772
 --Inline Link (Hover): #967343
 --Navigation Background: #FFFFFF
@@ -96,6 +96,7 @@ header {
 /* into header text--Bent Creek Ceramics*/
 
 header h1 {
+  color: #131511;
   font-size: 75px;
   font-weight: 400;
   margin-bottom: 0;
@@ -105,6 +106,7 @@ header h1 {
 /*Header subtext--Where art meets nature*/
 
 header h2 {
+  color: #131511;
   font-size: 40px;
   font-weight: 300;
   margin-top: 10px;
@@ -130,6 +132,7 @@ header h2 {
   background-size: cover;
   background-position: center;
   margin: 8px;
+  padding-top: 300px;
 }
 
 .sets {
@@ -140,6 +143,7 @@ header h2 {
   background-size: cover;
   background-position: center;
   margin: 8px;
+  padding-top: 300px;
 }
 
 .textures {
@@ -190,4 +194,48 @@ header h2 {
   background-size: cover;
   background-position: center;
   margin: 8px;
+}
+
+/*still in flex items but now into the text in the flex items*/
+
+.possibilities-text {
+  display: inline-block;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+}
+
+.sets-text {
+  display: inline-block;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+}
+
+.textures-text {
+  display: inline-block;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+}
+
+.tea-text {
+  display: inline-block;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+}
+
+.jars-text {
+  display: inline-block;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+}
+
+.wasabi-text {
+  display: inline-block;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+}
+
+.sunshine-text {
+  display: inline-block;
+  background-color: #2B2F26;
+  color: #F2F1E8;
 }
