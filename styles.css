@@ -124,7 +124,7 @@ header h2 {
 
 .possibilities {
   height: 368px;
-  width: 60%;
+  width: 48%;
   flex-grow: 3;
   background-image: url("images/product-1.jpg");
   background-size: cover;
@@ -134,7 +134,7 @@ header h2 {
 
 .sets {
   height: 368px;
-  width: 20%;
+  width: 16%;
   flex-grow: 1;
   background-image: url("images/product-2.jpg");
   background-size: cover;
@@ -144,7 +144,7 @@ header h2 {
 
 .textures {
   height: 368px;
-  width: 20%;
+  width: 16%;
   flex-grow: 1;
   background-image: url("images/product-3.jpg");
   background-size: cover;
@@ -154,7 +154,7 @@ header h2 {
 
 .tea {
   height: 245px;
-  width: 20%;
+  width: 16%;
   flex-grow: 1;
   background-image: url("images/product-4.jpg");
   background-size: cover;
@@ -164,7 +164,7 @@ header h2 {
 
 .jars {
   height: 245px;
-  width: 20%;
+  width: 16%;
   flex-grow: 1;
   background-image: url("images/product-5.jpg");
   background-size: cover;
@@ -174,7 +174,7 @@ header h2 {
 
 .wasabi {
   height: 245px;
-  width: 20%;
+  width: 32%;
   flex-grow: 2;
   background-image: url("images/product-6.jpg");
   background-size: cover;
@@ -184,7 +184,7 @@ header h2 {
 
 .sunshine {
   height: 245px;
-  width: 20%;
+  width: 16%;
   flex-grow: 1;
   background-image: url("images/product-7.jpg");
   background-size: cover;
