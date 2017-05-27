@@ -111,9 +111,58 @@ body {
   background-color: #F2F1E8;
 }
 
-.possibilities{
+.possibilities {
   height: 368px;
   width: 20%;
   background-image: url("images/product-1.jpg");
   background-size: cover;
+  background-position: center;
+}
+
+.sets {
+  height: 368px;
+  width: 20%;
+  background-image: url("images/product-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.textures {
+  height: 368px;
+  width: 20%;
+  background-image: url("images/product-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.tea {
+  height: 368px;
+  width: 20%;
+  background-image: url("images/product-4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jars {
+  height: 368px;
+  width: 20%;
+  background-image: url("images/product-5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.wasabi {
+  height: 368px;
+  width: 20%;
+  background-image: url("images/product-6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sunshine {
+  height: 368px;
+  width: 20%;
+  background-image: url("images/product-7.jpg");
+  background-size: cover;
+  background-position: center;
 }
