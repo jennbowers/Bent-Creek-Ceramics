@@ -123,6 +123,7 @@ header h2 {
 }
 
 /*still in body, but now into each of the flex items*/
+/*there is 35px padding on the bottom*/
 
 .possibilities {
   height: 368px;
@@ -132,7 +133,7 @@ header h2 {
   background-size: cover;
   background-position: center;
   margin: 8px;
-  padding-top: 300px;
+  padding-top: 280px;
 }
 
 .sets {
@@ -143,7 +144,7 @@ header h2 {
   background-size: cover;
   background-position: center;
   margin: 8px;
-  padding-top: 300px;
+  padding-top: 280px;
 }
 
 .textures {
@@ -154,46 +155,51 @@ header h2 {
   background-size: cover;
   background-position: center;
   margin: 8px;
+  padding-top: 280px;
 }
 
 .tea {
-  height: 245px;
+  height: 242px;
   width: 16%;
   flex-grow: 1;
   background-image: url("images/product-4.jpg");
   background-size: cover;
-  background-position: center;
+  /*background-position: center;*/
   margin: 8px;
+  padding-top: 153px;
 }
 
 .jars {
-  height: 245px;
+  height: 242px;
   width: 16%;
   flex-grow: 1;
   background-image: url("images/product-5.jpg");
   background-size: cover;
-  background-position: center;
+  /*background-position: center;*/
   margin: 8px;
+  padding-top: 153px;
 }
 
 .wasabi {
-  height: 245px;
+  height: 242px;
   width: 32%;
   flex-grow: 2;
   background-image: url("images/product-6.jpg");
   background-size: cover;
-  background-position: center;
+  /*background-position: center;*/
   margin: 8px;
+  padding-top: 153px;
 }
 
 .sunshine {
-  height: 245px;
+  height: 242px;
   width: 16%;
   flex-grow: 1;
   background-image: url("images/product-7.jpg");
   background-size: cover;
-  background-position: center;
+  /*background-position: center;*/
   margin: 8px;
+  padding-top: 153px;
 }
 
 /*still in flex items but now into the text in the flex items*/
@@ -201,41 +207,83 @@ header h2 {
 .possibilities-text {
   display: inline-block;
   background-color: #2B2F26;
+  height: 53px;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
 }
 
 .sets-text {
   display: inline-block;
   background-color: #2B2F26;
+  height: 53px;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
 }
 
 .textures-text {
   display: inline-block;
   background-color: #2B2F26;
+  height: 53px;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
 }
 
 .tea-text {
   display: inline-block;
   background-color: #2B2F26;
+  height: 53px;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
 }
 
 .jars-text {
   display: inline-block;
   background-color: #2B2F26;
+  height: 53px;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
 }
 
 .wasabi-text {
   display: inline-block;
   background-color: #2B2F26;
+  height: 53px;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
 }
 
 .sunshine-text {
   display: inline-block;
   background-color: #2B2F26;
+  height: 53px;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
 }
