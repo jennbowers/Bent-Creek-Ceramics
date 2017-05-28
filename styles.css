@@ -287,3 +287,19 @@ header h2 {
   font-family: 'Merriweather', serif;
   font-size: 19px;
 }
+
+/*out of grid of images, into footer*/
+
+footer {
+  background-color: #2B2F26;
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.copyright {
+  margin-bottom: 0;
+  color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
+}
