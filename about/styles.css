@@ -101,7 +101,7 @@ header h1 {
   color: #131511;
   font-size: 65px;
   font-weight: 400;
-  margin-bottom: 65px;
+  margin-bottom: 70px;
   margin-top: 0px;
   padding-top: 120px;
 }
@@ -121,19 +121,40 @@ header h1 {
   width: 165px;
   float: left;
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .body-copy {
   color: ##131511;
   font-family: 'Merriweather', serif;
   font-size: 19px;
-  line-height: 2.5rem;
+  line-height: 2.4rem;
+  margin: 0;
 }
 
 /*still in main-content-1, but now on blockquote*/
 
+blockquote {
+  color: ##131511;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
+  line-height: 2.4rem;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 0;
+  padding-left: 30px;
+  border-left: 2px #968772 solid;
+}
 
+/*out of blockquote, into h2*/
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #131511;
+  font-size: 28px;
+  font-weight: 300;
+}
 
 /*out of last section, into footer*/
 
