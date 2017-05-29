@@ -1,4 +1,4 @@
-/*Background: #F2F1E8
+/*--Background: #F2F1E8
 --Text: #131511
 --Inline Link: #968772
 --Inline Link (Hover): #967343
@@ -45,6 +45,8 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20px;
+  position: fixed;
+  z-index: 100;
 }
 
 /*out of logo, into top nav bar*/
@@ -57,7 +59,8 @@ nav {
   height: 70px;
   display: flex;
   justify-content: center;
-
+  position: fixed;
+  z-index: 99;
 }
 
 /*nav bar links*/
@@ -98,9 +101,39 @@ header h1 {
   color: #131511;
   font-size: 65px;
   font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 50px;
+  margin-bottom: 65px;
+  margin-top: 0px;
+  padding-top: 120px;
 }
+
+/*out of header, into main-content-1*/
+
+.main-content-1 {
+  width: 67%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#birdhouse-image {
+  background-image: url("../images/birdhouse.jpg");
+  background-size: cover;
+  height: 120px;
+  width: 165px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.body-copy {
+  color: ##131511;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
+  line-height: 2.5rem;
+}
+
+/*still in main-content-1, but now on blockquote*/
+
+
 
 /*out of last section, into footer*/
 
