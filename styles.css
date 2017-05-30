@@ -41,11 +41,11 @@ body {
   background-image: url("images/bent-creek-logo.png");
   background-size: cover;
   position: absolute;
-  width: 50px;
-  height: 50px;
-  margin-top: 10px;
+  width: 45px;
+  height: 45px;
+  margin-top: 12px;
   margin-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 15px;
   position: fixed;
   z-index: 100;
 }
@@ -68,10 +68,10 @@ nav {
 
 nav a {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   color: #2B2F26;
   text-transform: uppercase;
-  padding-top: 22px;
+  padding-top: 24px;
   margin-left: 33px;
   margin-right: 33px;
 }
@@ -100,20 +100,20 @@ header {
 
 header h1 {
   color: #131511;
-  font-size: 75px;
+  font-size: 67px;
   font-weight: 400;
   margin-bottom: 0;
   margin-top: 0px;
-  padding-top: 115px;
+  padding-top: 120px;
 }
 
 /*Header subtext--Where art meets nature*/
 
 header h2 {
   color: #131511;
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 300;
-  margin-top: 10px;
+  margin-top: 11px;
   margin-bottom: 32px;
 }
 
@@ -123,7 +123,7 @@ header h2 {
   display: flex;
   /*justify-content: center;*/
   flex-wrap: wrap;
-  padding: 15px;
+  padding: 20px;
 }
 
 /*still in body, but now into each of the flex items*/
