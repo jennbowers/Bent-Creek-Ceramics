@@ -70,7 +70,7 @@ nav a {
   font-size: 19px;
   color: #2B2F26;
   text-transform: uppercase;
-  padding-top: 22px;
+  padding-top: 24px;
   margin-left: 33px;
   margin-right: 33px;
 }
@@ -95,13 +95,13 @@ header {
   width: 100%;
 }
 
-/* into header text--Bent Creek Ceramics*/
+/* into header text--A Community of Artists*/
 
 header h1 {
   color: #131511;
-  font-size: 65px;
+  font-size: 67px;
   font-weight: 400;
-  margin-bottom: 70px;
+  margin-bottom: 65px;
   margin-top: 0px;
   padding-top: 120px;
 }
@@ -141,10 +141,11 @@ blockquote {
   font-size: 19px;
   line-height: 2.4rem;
   font-weight: 300;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 35px;
+  margin-bottom: 45px;
   margin-left: 0;
   padding-left: 30px;
+  padding-right: 20px;
   border-left: 2px #968772 solid;
 }
 
@@ -155,6 +156,7 @@ h2 {
   color: #131511;
   font-size: 28px;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 
 /* out of blockquote, into image-divider*/
@@ -187,8 +189,8 @@ h2 {
 /*main-content-2 h2*/
 
 #facilities {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding-top: 35px;
 }
 
@@ -202,6 +204,7 @@ h2 {
 .image-and-caption {
   padding-top: 15px;
   width: 160px;
+  margin-right: 9px;
 }
 
 #shelf-space-image {
