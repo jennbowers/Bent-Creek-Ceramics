@@ -13,24 +13,42 @@
   <body>
     <div class="logo"></div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about/index.html">About</a>
-      <a href="newsletter/index.html" class="active">Newsletter</a>
+      <a href="../index.html">Home</a>
+      <a href="../about/index.html">About</a>
+      <a href="index.html" class="active">Newsletter</a>
     </nav>
     <div class="background-image">
       <form class="newsletter-signup">
         <fieldset>
           <legend><h2>Sign Up for Our Weekly Newsletter</h2></legend>
           <h3>Stay up to date with events, activities, news and specials.</h3>
-          <label for="nameInput"></label>
-          <input type="text" name="name" id="nameInput" value="Name">
-          <br>
-          <label for="emailInput"></label>
-          <input type="email" name="email" id="emailInput" value="Email">
-          <br>
-          <input type="submit" name="submit" id="signupButton" value="Submit">
+          <div class="nameInput">
+            <label for="nameInput"></label>
+            <input type="text" name="name" id="nameInput" placeholder="Name">
+          </div>
+          <div class="emailInput">
+            <label for="emailInput"></label>
+            <input type="email" name="email" id="emailInput" placeholder="Email">
+          </div>
+          <button type="submit" id="signupButton" name="submit">Submit</button>
         </fieldset>
       </form>
     </div>
+    <script type="text/javascript">
+      var nameInput = document.getElementById('nameInput');
+      var emailInput = document.getElementById('emailInput');
+      var signupButton = document.getElementById('signupButton');
+      signupButton.addEventListener('click', function(e) {
+        var nameVal = nameInput.value;
+        var emailVal = emailInput.value;
+        if (nameVal && emailVal) {
+          alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+          nameInput.value = "";
+          emailInput.value = "";
+        } else {
+          alert('We would love for you to sign up, please provide both your name and email address.');
+          }
+      });
+    </script>
   </body>
 </html>

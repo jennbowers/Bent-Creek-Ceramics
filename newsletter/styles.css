@@ -6,12 +6,12 @@
 --Navigation Text: #2B2F26
 --Navigation Text (Hover): #CD5D67
 --Navigation Text (Active) #968772
-Button Background: #968772
-Button Background (Hover): #967343
-Button Text: #F2F1E8
-Button Text (Hover): #FFFFFF
-Input Border Bottom: #968772
-Input Border Bottom (Focus): #967343*/
+--Button Background: #968772
+--Button Background (Hover): #967343
+--Button Text: #F2F1E8
+--Button Text (Hover): #FFFFFF
+--Input Border Bottom: #968772
+--Input Border Bottom (Focus): #967343*/
 
 /*font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif;*/
@@ -118,14 +118,14 @@ h2 {
   color: #131511;
   font-size: 29px;
   font-weight: 300;
-  margin-top: 11px;
-  margin-bottom: 32px;
+  margin-top: 0;
+  margin-bottom: 28px;
 }
 
 h3 {
   font-family: 'Merriweather', serif;
   color: #131511;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
 }
 
@@ -134,6 +134,27 @@ input {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px #968772 solid;
-  padding-top: 20px;
+  border-bottom: 2px #968772 solid;
+  margin-top: 28px;
+  font-size: 19px;
+  margin-bottom: 6px;
+}
+
+input:focus {
+  border-bottom: #967343;
+}
+
+button {
+  margin-top: 30px;
+  background-color: #968772;
+  border-style: none;
+  color: #F2F1E8;
+  font-size: 20px;
+  padding: 16px;
+  width: 125px;
+}
+
+button:hover {
+  background-color: #967343;
+  color: #FFFFFF;
 }
