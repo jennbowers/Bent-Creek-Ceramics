@@ -8,8 +8,29 @@
       @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i');
     </style>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../images/bent-creek-logo.png">
   </head>
   <body>
-    
+    <div class="logo"></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about/index.html">About</a>
+      <a href="newsletter/index.html" class="active">Newsletter</a>
+    </nav>
+    <div class="background-image">
+      <form class="newsletter-signup">
+        <fieldset>
+          <legend><h2>Sign Up for Our Weekly Newsletter</h2></legend>
+          <h3>Stay up to date with events, activities, news and specials.</h3>
+          <label for="name"></label>
+          <input type="text" name="name" id="name" value="Name">
+          <br>
+          <label for="email"></label>
+          <input type="email" name="email" id="email" value="Email">
+          <br>
+          <input type="submit" name="submit" value="Submit">
+        </fieldset>
+      </form>
+    </div>
   </body>
 </html>
