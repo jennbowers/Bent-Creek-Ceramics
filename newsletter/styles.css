@@ -90,11 +90,50 @@ nav a:active {
   background-image: url("../images/background-2.jpg");
   background-size: cover;
   background-position: top;
-  min-height: 612px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*out of background image, into form*/
 
 .newsletter-signup {
   background-color: #ffffff;
+  width: 48%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 52px 10px 32px 10px;
+
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #131511;
+  font-size: 29px;
+  font-weight: 300;
+  margin-top: 11px;
+  margin-bottom: 32px;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  color: #131511;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+input {
+  width: 90%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px #968772 solid;
+  padding-top: 20px;
 }
