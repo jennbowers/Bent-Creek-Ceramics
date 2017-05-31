@@ -83,3 +83,18 @@ nav a:active {
 .active {
   color: #968772;
 }
+
+/*out of nav bar, into background-image*/
+
+.background-image {
+  background-image: url("../images/background-2.jpg");
+  background-size: cover;
+  background-position: top;
+  min-height: 612px;
+}
+
+/*out of background image, into form*/
+
+.newsletter-signup {
+  background-color: #ffffff;
+}
